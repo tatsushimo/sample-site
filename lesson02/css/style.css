@@ -3,7 +3,7 @@ body{
   font-family: "Noto Sans JP", "Hiragino Sans", Meiryo, sans-serif;
   font-weight: 400;
   background-color: #fff7c7;
-  background-image: url(images/haikei.png);     /* 背景画像指定 */
+  background-image: url(../images/haikei.png);     /* 背景画像指定 */
     background-repeat: repeat;  
     background-size: 160px auto; 
 }
