@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body{
+  font-family: "Noto Sans JP", "Hiragino Sans", Meiryo, sans-serif;
+  font-weight: 400;
+  background-color: #fff7c7;
+   background-image: url(images/haikei.png);     /* 背景画像指定 */
+    background-repeat: repeat;  
+    background-size: 160px auto; 
+}
+h1 {
+    margin: 0px auto;
+    text-align: center;
+}
+h2 {
+    color: #666;
+}
+.prof-image {
+    display: block;
+    width: 200px;
+    margin: 20px auto 10px;
+    border-radius: 50%;
+}
+
+h1 img {
+      width: 120px;
+}
+
+p {
+font-size: 15px;          
+  line-height: 1.8;
+  letter-spacing: 0.05em; 
+}
+
+/* ここからprofile-card */
+
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 0 0 20px 20px;
+    border-top: solid 6px #f0bb2f;
+    margin: 20px auto;
+    padding: 15px;
+    width: 300px;
+}
+.profile-card h2{
+    margin: 0px auto 20px;
+    border-bottom: dotted #ff8a67;
+     line-height: 2;
+}
+/* profile-card終わり */
+
+a{
+    background-color: #ff8a67;
+    display: block;
+    padding: 20px 0;
+    border-radius: 40px;
+    color:#ffffff;
+    font-weight: bold;
+}
+ul{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+li {
+    margin-bottom: 15px;
+}
+/*favorite-sectionここから */
+.favorite-section {
+    width: 300px;
+     margin: 15px auto;
+}
+
+.favorite-section h2{
+    margin: 20px 0;
+    text-align: left;
+    line-height: 2;
+    border-bottom: dotted #ff8a67;
+}
+/* favorite-sectionここまで */
+
+/* favorite-listここから */
+
+.favorite-list {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+.favorite-list li {
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.favorite-list img{
+    width: 90px;
+    height: 90px;
+}
+/* favorite-listここまで */
+.footer-text{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
